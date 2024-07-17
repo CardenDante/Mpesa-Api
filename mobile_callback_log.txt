@@ -1,0 +1,68 @@
+Callback received
+Callback Data: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 6e86-45dd-91ac-fd5d4178ab523760905
+                    [CheckoutRequestID] => ws_CO_18072024010010256796280700
+                    [ResultCode] => 0
+                    [ResultDesc] => The service request is processed successfully.
+                    [CallbackMetadata] => Array
+                        (
+                            [Item] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [Name] => Amount
+                                            [Value] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [Name] => MpesaReceiptNumber
+                                            [Value] => SGI916UCKP
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [Name] => TransactionDate
+                                            [Value] => 20240718010027
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [Name] => PhoneNumber
+                                            [Value] => 254796280700
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+Payment successful: The service request is processed successfully.
+Callback received
+Callback Data: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3b82-4048-94fd-4503f39b858f140112
+                    [CheckoutRequestID] => ws_CO_18072024011341670796280700
+                    [ResultCode] => 1032
+                    [ResultDesc] => Request cancelled by user
+                )
+
+        )
+
+)
+
+Payment failed or cancelled: Request cancelled by user

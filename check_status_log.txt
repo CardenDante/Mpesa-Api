@@ -1,0 +1,1 @@
+[18-Jul-2024 01:00:15 Africa/Addis_Ababa] PHP Warning:  file_get_contents(mobile_callback_log.txt): Failed to open stream: No such file or directory in /home/chachatech/Documents/my-php-project/check_status.php on line 8
