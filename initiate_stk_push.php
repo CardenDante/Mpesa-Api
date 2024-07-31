@@ -14,11 +14,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $phone = $_POST['phone'];
 
     $reference = abs(rand(1000000,99999999999));    
-    $reference_one = "Chacha Testing";
-    $reference_two = "Pay ksh.1 to get now a instant delivery";
+    $reference_one = "Lipagas Limited";
+    $reference_two = "Weekend Academy Enrollment Fee";
     // Update the callback URL to your live public URL
-    $mobile_callback_url = 'https://api.lipagas.co/mobile_callback_url.php';
-    $timeout_callback_url = 'https://527c-102-0-6-10.ngrok-free.app/timeout_callback_url.php';
+    $mobile_callback_url = 'https://a281-102-0-6-10.ngrok-free.app/mobile_callback_url.php';
+    $timeout_callback_url = 'https://a281-102-0-6-10.ngrok-free.app/timeout_callback_url.php';
 
     // Live credentials
     $merchant_id = '174379'; // Replace with your live Business Shortcode

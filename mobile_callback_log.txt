@@ -66,3 +66,93 @@ Callback Data: Array
 )
 
 Payment failed or cancelled: Request cancelled by user
+Callback received
+Callback Data: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 1c5b-4ba8-815c-ac45c57a3db01780889
+                    [CheckoutRequestID] => ws_CO_31072024082028861796280700
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Payment failed or cancelled: DS timeout user cannot be reached
+Callback received
+Callback Data: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 1c5b-4ba8-815c-ac45c57a3db01780902
+                    [CheckoutRequestID] => ws_CO_31072024082636824796280700
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Payment failed or cancelled: DS timeout user cannot be reached
+Callback received
+Callback Data: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 6e86-45dd-91ac-fd5d4178ab523977270
+                    [CheckoutRequestID] => ws_CO_31072024083103314796280700
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Payment failed or cancelled: DS timeout user cannot be reached
+Callback received
+Callback Data: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 3b82-4048-94fd-4503f39b858f356914
+                    [CheckoutRequestID] => ws_CO_31072024083523526796280700
+                    [ResultCode] => 1037
+                    [ResultDesc] => DS timeout user cannot be reached
+                )
+
+        )
+
+)
+
+Payment failed or cancelled: DS timeout user cannot be reached
+Callback received
+Callback Data: Array
+(
+    [Body] => Array
+        (
+            [stkCallback] => Array
+                (
+                    [MerchantRequestID] => 2654-4b64-97ff-b827b542881d371985
+                    [CheckoutRequestID] => ws_CO_31072024083300541796280700
+                    [ResultCode] => 2001
+                    [ResultDesc] => The initiator information is invalid.
+                )
+
+        )
+
+)
+
+Payment failed or cancelled: The initiator information is invalid.

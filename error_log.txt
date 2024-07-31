@@ -348,3 +348,562 @@ STK push initiated successfully. Response: {
             "CustomerMessage":"Success. Request accepted for processing"
         }
         
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 30746a89-c935-4698-9369-12bd5ee3e05d
+content-length: 113
+date: Wed, 31 Jul 2024 04:38:24 GMT
+set-cookie: visid_incap_2742146=rltA3LTrRzyTN6WMb5ukHL+/qWYAAAAAQUIPAAAAAAD+qECrugyXRo5sbe9qgR/4; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=xGVeZf+jFnxm3WKMbEbmWsC/qWYAAAAA01xKmIrXA9QdLxOjF2zs+g==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 17-46242690-46242694 NNNN CT(123 250 0) RT(1722400703770 95) q(0 0 4 0) r(6 6) U16
+
+{
+            "access_token": "qBzVG6GA939Hkk8eL2awYBnbbUMl",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"3b82-4048-94fd-4503f39b858f356115",
+            "CheckoutRequestID":"ws_CO_31072024073824471796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 2db43639-b31a-43af-8d95-772eb8811544
+content-length: 113
+date: Wed, 31 Jul 2024 04:41:51 GMT
+set-cookie: visid_incap_2742146=rltA3LTrRzyTN6WMb5ukHL+/qWYAAAAAQUIPAAAAAAD+qECrugyXRo5sbe9qgR/4; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=22D8W01Zswdm3WKMbEbmWpDAqWYAAAAARYzg+ZFYbcYjVAG6vOYB2g==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 18-63281943-63281949 NNNN CT(123 132 0) RT(1722400911648 79) q(0 0 2 0) r(4 4) U16
+
+{
+            "access_token": "unKojGKvqjvjkg6oqzUBUxHN9hZu",
+            "expires_in": "3599"
+        }
+        
+HTTP Code: 400
+{
+                    "requestId":"f1e2-4b95-a71d-b30d3cdbb7a71066641",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid PhoneNumber"
+                }
+            
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 903c5461-13db-455b-beb6-4cc516e1f0ed
+content-length: 113
+date: Wed, 31 Jul 2024 04:42:09 GMT
+set-cookie: visid_incap_2742146=OzFTzg15Rya7rMMOj10iNKHAqWYAAAAAQUIPAAAAAABhdfkqy5o0r/XpXa4Uv7ao; expires=Wed, 30 Jul 2025 17:30:27 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=aeRbG3kcY3TMVmOMbEbmWqHAqWYAAAAAM/SuVivfcuO3AK0lsZHL/A==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 2-3200629-3200631 NNNN CT(123 123 0) RT(1722400928849 80) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "FbdLpZAfsbKMda7goa4U5A4W2JGV",
+            "expires_in": "3599"
+        }
+        
+HTTP Code: 400
+{
+                    "requestId":"3b82-4048-94fd-4503f39b858f356162",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid PhoneNumber"
+                }
+            
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: d526cf28-6c67-4074-addf-1a87d006b094
+content-length: 113
+date: Wed, 31 Jul 2024 04:42:10 GMT
+set-cookie: visid_incap_2742146=29wiDZGuRi2FOhW/wtX98KLAqWYAAAAAQUIPAAAAAAD/BHEv3XifRr194GzhqIZj; expires=Wed, 30 Jul 2025 17:30:12 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=sj6rCkKTBhCcV2OMbEbmWqLAqWYAAAAA+cAjjKhovBIwG31MU24mpg==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 13-9388399-9388401 NNNN CT(125 123 0) RT(1722400930233 81) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "jtC0PeVE8BLERazjMTns79hNOFVQ",
+            "expires_in": "3599"
+        }
+        
+HTTP Code: 400
+{
+                    "requestId":"1c5b-4ba8-815c-ac45c57a3db01780589",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid PhoneNumber"
+                }
+            
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: d36689c8-76da-4faa-9f05-6958859c4ec3
+content-length: 113
+date: Wed, 31 Jul 2024 04:45:50 GMT
+set-cookie: visid_incap_2742146=5bXhQWquSiquhFfKlVQwVn/BqWYAAAAAQUIPAAAAAAA9Hsf4OishFiwHsHa0zotp; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=Qr0/QXCKOEq62WOMbEbmWn/BqWYAAAAA1vdACcbOk+Lx5061I7C50w==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 18-63297844-63297852 NNNN CT(267 247 0) RT(1722401150359 79) q(0 0 5 -1) r(7 7) U16
+
+{
+            "access_token": "rMnTLET6saSypgwS1J0xQGIOAevZ",
+            "expires_in": "3599"
+        }
+        
+HTTP Code: 400
+{
+                    "requestId":"f1e2-4b95-a71d-b30d3cdbb7a71066664",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid PhoneNumber"
+                }
+            
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: ed642279-4171-4c28-8e12-d79b4702a4fc
+content-length: 113
+date: Wed, 31 Jul 2024 04:46:01 GMT
+set-cookie: visid_incap_2742146=BkTsh30BRe6Bc9RvWEnf2onBqWYAAAAAQUIPAAAAAACoahwZu0okY6X9YoIBCQwK; expires=Wed, 30 Jul 2025 17:30:12 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=JnZ5Scg/4RVw4GOMbEbmWonBqWYAAAAATMaa36Gh4F3dIKHD9DhI/Q==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 10-4422992-4422994 NNNN CT(124 124 0) RT(1722401160920 78) q(0 0 3 -1) r(5 5) U16
+
+{
+            "access_token": "pycMAAC08LG3fftFG7Rxqdd8s9oL",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"2654-4b64-97ff-b827b542881d371310",
+            "CheckoutRequestID":"ws_CO_31072024074935570796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 43665444-0814-4528-9746-09f5e6ef8c92
+content-length: 113
+date: Wed, 31 Jul 2024 05:10:11 GMT
+set-cookie: visid_incap_2742146=0tebDTwHSHq3pDAXoyxTHTLHqWYAAAAAQUIPAAAAAABSdWeoWE4pLCzCQPaHN6QH; expires=Wed, 30 Jul 2025 17:30:21 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=EKeIbrYKWT06rGeMbEbmWjPHqWYAAAAAfrPu2r0j2VAh16DCuCXfgg==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 5-6855003-6855006 NNNN CT(123 250 0) RT(1722402610825 94) q(0 0 3 0) r(5 5) U16
+
+{
+            "access_token": "amynqahduSOAjEyeagzL29AI48Og",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"1c5b-4ba8-815c-ac45c57a3db01780807",
+            "CheckoutRequestID":"ws_CO_31072024081011517796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 495f236d-3b4d-45a4-a692-26abc05902de
+content-length: 113
+date: Wed, 31 Jul 2024 05:20:28 GMT
+set-cookie: visid_incap_2742146=fwbq5/thT7iTeEm/rLW/hpzJqWYAAAAAQUIPAAAAAABYBIgRS17AggAjlL8cHllm; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=c8tTZDghFTSxYmmMbEbmWpzJqWYAAAAAWOI4/CEU+zuoQUewAiukXQ==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 9-8679365-8679368 NNNN CT(123 251 0) RT(1722403228215 80) q(0 0 4 -1) r(6 6) U16
+
+{
+            "access_token": "5AB03DFccSbVcZ2bRIdJoW0vBT5Z",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"1c5b-4ba8-815c-ac45c57a3db01780889",
+            "CheckoutRequestID":"ws_CO_31072024082028861796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 0b49142b-e93c-4f7c-a499-cb85e4acfbb9
+content-length: 113
+date: Wed, 31 Jul 2024 05:20:40 GMT
+set-cookie: visid_incap_2742146=bwdKQf5IT0Of5PkMGCj0EajJqWYAAAAAQUIPAAAAAAAXM7KTarWdWsqAoxEACR1r; expires=Wed, 30 Jul 2025 17:30:22 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=5/lHUH6oKFuQammMbEbmWqjJqWYAAAAAVlXZB7RYEPFtLEgKMWWMkw==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 12-7368610-7368612 NNNN CT(124 124 0) RT(1722403240140 81) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "fRld3vlA8ApFPAwwZGLAY6KgtW3P",
+            "expires_in": "3599"
+        }
+        
+HTTP Code: 500
+{
+                    "requestId":"1c5b-4ba8-815c-ac45c57a3db01780890",
+                    "errorCode": "500.003.02",
+                    "errorMessage": "System is busy. Please try again in few minutes."
+                }
+            
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: ca142590-c8e8-455d-b58d-d4a67288428b
+content-length: 113
+date: Wed, 31 Jul 2024 05:23:02 GMT
+set-cookie: visid_incap_2742146=eD85htk/RqeCZyd2x2nmBTbKqWYAAAAAQUIPAAAAAABVr1/QggdYd1nRyYqeDD8P; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=a9INTKamH1nkz2mMbEbmWjbKqWYAAAAA81I7OvDhbdRwK0LZKVn+bA==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 18-63476430-63476440 NNNN CT(122 122 0) RT(1722403381926 78) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "UnqleJTBSRqhcmEBm3ahYASeEzmt",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"1c5b-4ba8-815c-ac45c57a3db01780902",
+            "CheckoutRequestID":"ws_CO_31072024082636824796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: ae866bd8-b472-4b50-8ab6-2420b21ddcaf
+content-length: 113
+date: Wed, 31 Jul 2024 05:23:30 GMT
+set-cookie: visid_incap_2742146=6+9nF6k+SkyY2YaXTzmWXVLKqWYAAAAAQUIPAAAAAAAj7kxO7EX6oEyVF+0iVHjG; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=jY9ZAKW9NiOJ5mmMbEbmWlLKqWYAAAAABiERhhMCKQV0cWSCKXQBsA==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 18-63479237-63479246 NNNN CT(141 123 0) RT(1722403410237 79) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "7yFqJJ0qC233JT1qiYJKapMWmqrG",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"1c5b-4ba8-815c-ac45c57a3db01780911",
+            "CheckoutRequestID":"ws_CO_31072024082330644796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: c82e9edc-c53c-416a-b9b1-81b55ce6086d
+content-length: 113
+date: Wed, 31 Jul 2024 05:24:28 GMT
+set-cookie: visid_incap_2742146=T6s606l1RRi+xr2Iw8woOIzKqWYAAAAAQUIPAAAAAADRnXZhFPFKqjWx97iucOD5; expires=Wed, 30 Jul 2025 17:30:12 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=ALFjeTmJiGz/E2qMbEbmWozKqWYAAAAAhnlkfvG2mjTLVr42FAYNpg==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 13-9433515-9433517 NNNN CT(122 122 0) RT(1722403468039 78) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "A3nKDAyD4LZOCnUHqNS8x1DClq9v",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"2654-4b64-97ff-b827b542881d371848",
+            "CheckoutRequestID":"ws_CO_31072024082802755796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 9a320e18-f66a-45b7-8b35-ca1f4e4290aa
+content-length: 113
+date: Wed, 31 Jul 2024 05:24:33 GMT
+set-cookie: visid_incap_2742146=lnoNfs6ZQRelYRws34fLc5HKqWYAAAAAQUIPAAAAAAAj6k+SlQB9LKbe+D5LWokG; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=LY/WDGS+vDtyF2qMbEbmWpHKqWYAAAAAG21souIe3ZbdSNMsMfbgiA==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 18-63484639-63484646 NNNN CT(121 123 0) RT(1722403472777 79) q(0 0 3 -1) r(4 4) U16
+
+{
+            "access_token": "662tGptLG2Y0e8Bky0apu6h1UR9q",
+            "expires_in": "3599"
+        }
+        
+HTTP Code: 500
+{
+                    "requestId":"f1e2-4b95-a71d-b30d3cdbb7a71066990",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Unable to lock subscriber, a transaction is already in process for the current subscriber"
+                }
+            
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: a8ce5e0a-eea6-4842-a3c7-f228a2e7529a
+content-length: 113
+date: Wed, 31 Jul 2024 05:24:49 GMT
+set-cookie: visid_incap_2742146=Te+Zy0eST6qreqKGvNG9OKHKqWYAAAAAQUIPAAAAAAAtDW74i+E3YuI7+lfjbLOp; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=PCGpC4KZxielImqMbEbmWqHKqWYAAAAAiKaXUJaseefMw2OmptyoWQ==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 18-63486077-63484646 PNNN RT(1722403489591 79) q(0 0 0 -1) r(2 2) U16
+
+{
+            "access_token": "ArkAaSv8pdjYmAgnyfltlBJEPr8O",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"6e86-45dd-91ac-fd5d4178ab523977174",
+            "CheckoutRequestID":"ws_CO_31072024082449802796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: a498f0ac-82d8-49d3-b877-0feb3a216d82
+content-length: 113
+date: Wed, 31 Jul 2024 05:26:13 GMT
+set-cookie: visid_incap_2742146=/y3ifXilThe8XMH3Z8CDGvXKqWYAAAAAQUIPAAAAAAAkym3tNolisvZMdFAWqEaY; expires=Wed, 30 Jul 2025 17:30:21 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=Y1cyVFxW3AIfYmqMbEbmWvXKqWYAAAAAOIetHp/EdXe0H8lOqTvzGg==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 16-31227804-31227811 NNNN CT(122 249 0) RT(1722403572745 89) q(0 0 4 -1) r(5 5) U16
+
+{
+            "access_token": "Rawotueb8hu1gTNf2qBCFV8IFSJ6",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"1c5b-4ba8-815c-ac45c57a3db01780932",
+            "CheckoutRequestID":"ws_CO_31072024082947621796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: a84b4c0a-b619-4e6e-9f49-0370eda1459e
+content-length: 113
+date: Wed, 31 Jul 2024 05:26:28 GMT
+set-cookie: visid_incap_2742146=sEdg3uH+RIuF1HJzarbfuwTLqWYAAAAAQUIPAAAAAAAG4OfSwd9AISxbOLHyKvRq; expires=Wed, 30 Jul 2025 17:30:12 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=aAnWTS2KgD3hbGqMbEbmWgTLqWYAAAAAmyoOr7VgTdxwBJNkzBU9dQ==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 10-4446505-4446507 NNNN CT(122 124 0) RT(1722403588068 80) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "avzIoGokrPiGtgHB02M23QW9mU68",
+            "expires_in": "3599"
+        }
+        
+HTTP Code: 500
+{
+                    "requestId":"6e86-45dd-91ac-fd5d4178ab523977204",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Unable to lock subscriber, a transaction is already in process for the current subscriber"
+                }
+            
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 7a2f7d4d-3027-4c65-97e8-bd54a5f0469a
+content-length: 113
+date: Wed, 31 Jul 2024 05:31:03 GMT
+set-cookie: visid_incap_2742146=7GfSgIqqTj2yJDZsSd6/rRfMqWYAAAAAQUIPAAAAAAAd9jC7dh9yPqeSd5GH6JM7; expires=Wed, 30 Jul 2025 17:30:12 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=NdhSCawjsiR7OGuMbEbmWhfMqWYAAAAAAImY2VlTtEn3mM/OVPa34A==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 13-9441669-9441680 NNNN CT(122 249 0) RT(1722403862667 79) q(0 0 4 -1) r(5 5) U16
+
+{
+            "access_token": "L9VhwZg0ufkjzxkWurI290sGAfEY",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"6e86-45dd-91ac-fd5d4178ab523977270",
+            "CheckoutRequestID":"ws_CO_31072024083103314796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: b5a42113-becd-43ee-a378-5bf7d7e6b14a
+content-length: 113
+date: Wed, 31 Jul 2024 05:31:19 GMT
+set-cookie: visid_incap_2742146=JGGs9voIS4ynoeHNLBPD7ifMqWYAAAAAQUIPAAAAAACRHmL3g3sME2hCeMyv2VGj; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=bQz4GUzgAUaARWuMbEbmWifMqWYAAAAAL2DFN+yb0t2OXrryPqWijA==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 9-8691316-8691319 NNNN CT(122 123 0) RT(1722403879448 77) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "IbtAVorWZkVbxX9EOPWhmBtqKMdJ",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"6e86-45dd-91ac-fd5d4178ab523977277",
+            "CheckoutRequestID":"ws_CO_31072024083120062796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 0b6cca16-b1f0-414a-a413-5d77af66643e
+content-length: 113
+date: Wed, 31 Jul 2024 05:31:49 GMT
+set-cookie: visid_incap_2742146=iEWlV884Q+eqohHgEeDYe0XMqWYAAAAAQUIPAAAAAABztTCymlt3nh0k9IlqBo0U; expires=Wed, 30 Jul 2025 17:30:20 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=Y6/kaK5Z8QhdW2uMbEbmWkXMqWYAAAAAqWEtpma6qOzNLhaO2tWV1A==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 18-63521412-63521417 NNNN CT(122 126 0) RT(1722403909141 78) q(0 0 2 -1) r(4 4) U16
+
+{
+            "access_token": "rsj3r9giECbASjS2wamMFAXt5Www",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"3b82-4048-94fd-4503f39b858f356914",
+            "CheckoutRequestID":"ws_CO_31072024083523526796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: 3a90b638-5947-4a00-b164-568d634d7c6e
+content-length: 113
+date: Wed, 31 Jul 2024 05:33:00 GMT
+set-cookie: visid_incap_2742146=TYFYA/U9RYuD20UdzbLD84zMqWYAAAAAQUIPAAAAAACEwNWmBRnfl4ZcVniOZo2H; expires=Wed, 30 Jul 2025 17:30:21 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=7zBbd1uKMlrxjmuMbEbmWozMqWYAAAAAK+pVvD5eHOKzXKmi6OLaPw==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 14-12832853-12832855 NNNN CT(123 122 0) RT(1722403980116 81) q(0 0 3 -1) r(5 5) U16
+
+{
+            "access_token": "My90VU69CG274RYGrQt3d5w6Y7NQ",
+            "expires_in": "3599"
+        }
+        
+STK push initiated successfully. Response: {
+            "MerchantRequestID":"2654-4b64-97ff-b827b542881d371985",
+            "CheckoutRequestID":"ws_CO_31072024083300541796280700",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+Script started
+POST request received
+cURL Response: HTTP/2 200 
+content-type: application/json;charset=UTF-8
+cache-control: no-store
+x-request-id: c61a1752-2a50-405c-86b1-76be21f3dae0
+content-length: 113
+date: Wed, 31 Jul 2024 05:33:10 GMT
+set-cookie: visid_incap_2742146=y4+WVT2qTLuFNN0QW6PG5ZbMqWYAAAAAQUIPAAAAAAAbEUTW2EhspN+aYdSTR6Ve; expires=Wed, 30 Jul 2025 17:30:22 GMT; HttpOnly; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+set-cookie: incap_ses_6550_2742146=j0rFAMVGFnxul2uMbEbmWpbMqWYAAAAA0BRqPaEZrdrJxqz6wNkXKg==; path=/; Domain=.safaricom.co.ke; Secure; SameSite=None
+strict-transport-security: max-age=31536000
+x-cdn: Imperva
+x-iinfo: 8-7538425-7538429 NNNN CT(123 124 0) RT(1722403990276 80) q(0 0 3 -1) r(4 4) U16
+
+{
+            "access_token": "eyoyg0BOTsApmIAl6V3YtTjELgN6",
+            "expires_in": "3599"
+        }
+        
+HTTP Code: 500
+{
+                    "requestId":"2654-4b64-97ff-b827b542881d371987",
+                    "errorCode": "500.003.02",
+                    "errorMessage": "System is busy. Please try again in few minutes."
+                }
+            
