@@ -38,18 +38,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $phone = $_POST['phone'];
 
     $reference = abs(rand(1000000,99999999999));    
-    $reference_one = "Lipagas Limited";
+    $reference_one = "Lipagas Limited"; //replace with your needed, account reference.
     $reference_two = "Complete your order";
     // Update the callback URL to your live public URL
     $mobile_callback_url = 'http://172.206.71.75/home/qwerty/Mpesa-Api/mobile_callback_url.php';
     $timeout_callback_url = 'http://172.206.71.75/home/qwerty/Mpesa-Api/timeout_callback_url.php';
 
     // Live credentials
-    $merchant_id = '4103503'; // Replace with your live Business Shortcode
-    $pass_key = 'bdc325698488a139c88f91d109e15c71c907a653e77488b6365dced07bf49e69'; // Replace with your live Passkey
+    $merchant_id = ''; // Replace with your live Business Shortcode
+    $pass_key = ''; // Replace with your live Passkey
     $time_stamp = date("YmdHis", time());
-    $consumer_key = 'VG3MxZu37LOIzFaolxzdvqIajFZtUHJM'; // Replace with your live Consumer Key
-    $consumer_secret = 'FuOjYxSGBxH0vyU2'; // Replace with your live Consumer Secret
+    $consumer_key = ''; // Replace with your live Consumer Key
+    $consumer_secret = ''; // Replace with your live Consumer Secret
 
     // Format the phone number
     $phone = formatPhoneNumberForMpesa($phone);
