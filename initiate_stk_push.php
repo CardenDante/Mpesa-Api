@@ -7,6 +7,30 @@ ini_set('error_log', 'error_log.txt');
 
 file_put_contents('error_log.txt', "Script started\n", FILE_APPEND);
 
+function formatPhoneNumberForMpesa($phoneNumber) {
+    // Remove any non-numeric characters
+    $phoneNumber = preg_replace('/\D/', '', $phoneNumber);
+
+    // Check if the phone number starts with '254'
+    if (substr($phoneNumber, 0, 3) !== '254') {
+        // If the phone number starts with '0', replace it with '254'
+        if (substr($phoneNumber, 0, 1) === '0') {
+            $phoneNumber = '254' . substr($phoneNumber, 1);
+        }
+    }
+
+    // Ensure the phone number does not start with '+'
+    $phoneNumber = ltrim($phoneNumber, '+');
+
+    // Validate the number starts with '2547' or '2541' and has exactly 12 digits
+    if (preg_match('/^254[17][0-9]{8}$/', $phoneNumber)) {
+        return $phoneNumber;
+    } else {
+        // Return false or an error message if the format is incorrect
+        return false;
+    }
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     file_put_contents('error_log.txt', "POST request received\n", FILE_APPEND);
     
@@ -15,23 +39,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $reference = abs(rand(1000000,99999999999));    
     $reference_one = "Lipagas Limited";
-    $reference_two = "Weekend Academy Enrollment Fee";
+    $reference_two = "Complete your order";
     // Update the callback URL to your live public URL
-    $mobile_callback_url = 'https://a281-102-0-6-10.ngrok-free.app/mobile_callback_url.php';
-    $timeout_callback_url = 'https://a281-102-0-6-10.ngrok-free.app/timeout_callback_url.php';
+    $mobile_callback_url = 'http://172.206.71.75/home/qwerty/Mpesa-Api/mobile_callback_url.php';
+    $timeout_callback_url = 'http://172.206.71.75/home/qwerty/Mpesa-Api/timeout_callback_url.php';
 
     // Live credentials
-    $merchant_id = '174379'; // Replace with your live Business Shortcode
-    $pass_key = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'; // Replace with your live Passkey
+    $merchant_id = '4103503'; // Replace with your live Business Shortcode
+    $pass_key = 'bdc325698488a139c88f91d109e15c71c907a653e77488b6365dced07bf49e69'; // Replace with your live Passkey
     $time_stamp = date("YmdHis", time());
-    $consumer_key = 'LDJ4WmvmQsHcKdaM2zzaHmT153hVvJ2AYAvbrFDcgmGqW1AW'; // Replace with your live Consumer Key
-    $consumer_secret = 'lFXj1uL2ZzCifDweGPSz6aSm68seoJOPlilGi4QwCFO3QVAfEGcljcCkYjuxfKDb'; // Replace with your live Consumer Secret
+    $consumer_key = 'VG3MxZu37LOIzFaolxzdvqIajFZtUHJM'; // Replace with your live Consumer Key
+    $consumer_secret = 'FuOjYxSGBxH0vyU2'; // Replace with your live Consumer Secret
 
-    $phone = (int) filter_var($phone, FILTER_SANITIZE_NUMBER_INT);							
+    // Format the phone number
+    $phone = formatPhoneNumberForMpesa($phone);
+    if (!$phone) {
+        file_put_contents('error_log.txt', "Invalid phone number format\n", FILE_APPEND);
+        echo json_encode(['success' => false, 'message' => "Invalid phone number format"]);
+        exit;
+    }
+
     $password = base64_encode($merchant_id . $pass_key . $time_stamp);
 
     // Authorization call
-    $url_register = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
+    $url_register = 'https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $url_register);
@@ -71,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $token = trim($token_part[1]);
 
     // M-Pesa STK push call
-    $url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest'; 
+    $url = 'https://api.safaricom.co.ke/mpesa/stkpush/v1/processrequest'; 
 
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_URL, $url);
@@ -87,7 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'PartyB' => $merchant_id,
         'PhoneNumber' => $phone,
         'CallBackURL' => $mobile_callback_url,
-        'AccountReference' => $reference_one,
+        'AccountReference' => $reference_one . "-" . $reference,
         'TransactionDesc' => $reference_two,
     );
 
